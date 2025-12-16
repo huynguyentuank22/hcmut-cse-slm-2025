@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (large files)
+*.zip
+*.tar.gz
+*.rar
+data/vmlu_mqa_v1.5.zip
+data/VNHSGE/
+
+# Model checkpoints
+checkpoints/
+outputs/
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Logs
+*.log
+logs/
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+.env
+.env.local
+*.key
+*.pem
+*_token.txt
+hf_token.txt
+
+# Cache
+.cache/
+*.cache
+unsloth_compiled_cache/__pycache__/
